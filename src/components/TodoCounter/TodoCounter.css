@@ -1,10 +1,15 @@
 .TodoCounter {
-  font-size: 24px;
+  font-size: 25px;
   text-align: center;
   margin: 0;
   padding: 48px;
   font-weight: normal;
+  background: #0E7CCF;
+  background: linear-gradient(to right, #0E7CCF 0%, #15AACF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 
 .TodoCounter span {
   font-weight: bold;
